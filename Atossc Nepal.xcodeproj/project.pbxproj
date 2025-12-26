@@ -1,0 +1,77 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 77;
+	objects = {
+
+/* Begin PBXFileReference section */
+		8223D2A72EFE9A6D0017A19B /* australia.html */ = {isa = PBXFileReference; lastKnownFileType = text.html; path = australia.html; sourceTree = "<group>"; };
+		8223D2A92EFEA02A0017A19B /* index.html */ = {isa = PBXFileReference; lastKnownFileType = text.html; path = index.html; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXGroup section */
+		8223D2A02EFE99E00017A19B = {
+			isa = PBXGroup;
+			children = (
+				8223D2A72EFE9A6D0017A19B /* australia.html */,
+				8223D2A92EFEA02A0017A19B /* index.html */,
+			);
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXProject section */
+		8223D2A12EFE99E00017A19B /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastUpgradeCheck = 1640;
+			};
+			buildConfigurationList = 8223D2A42EFE99E00017A19B /* Build configuration list for PBXProject "Atossc Nepal" */;
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 8223D2A02EFE99E00017A19B;
+			minimizedProjectReferenceProxies = 1;
+			preferredProjectObjectVersion = 77;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+			);
+		};
+/* End PBXProject section */
+
+/* Begin XCBuildConfiguration section */
+		8223D2A52EFE99E00017A19B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+			};
+			name = Debug;
+		};
+		8223D2A62EFE99E00017A19B /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		8223D2A42EFE99E00017A19B /* Build configuration list for PBXProject "Atossc Nepal" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				8223D2A52EFE99E00017A19B /* Debug */,
+				8223D2A62EFE99E00017A19B /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 8223D2A12EFE99E00017A19B /* Project object */;
+}
