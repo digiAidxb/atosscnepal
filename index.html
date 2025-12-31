@@ -25,141 +25,45 @@
       <link rel="icon" type="image/png" sizes="32x32" href="favicon.ico">
       <link rel="icon" type="image/png" sizes="16x16" href="favicon.ico">
       <link rel="apple-touch-icon" href="apple-touch-icon.png">
-  <style>
-    body {
-      margin: 0;
-      font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Arial, sans-serif;
-      background: #ffffff;
-      color: #0f172a;
-      line-height: 1.6;
-    }
-    .container {
-      max-width: 1100px;
-      margin: auto;
-      padding: 70px 20px;
-      text-align: center;
-    }
-    header img {
-      max-width: 220px;
-      margin-bottom: 30px;
-    }
-    h1 {
-      font-size: 2.6rem;
-      margin-bottom: 15px;
-    }
-    p {
-      color: #334155;
-      font-size: 1.05rem;
-      max-width: 760px;
-      margin: auto;
-    }
-    .countries {
-      display: grid;
-      grid-template-columns: repeat(auto-fit, minmax(220px, 1fr));
-      gap: 30px;
-      margin-top: 60px;
-    }
-    .country-card {
-      border: 1px solid #e5e7eb;
-      border-radius: 10px;
-      padding: 35px 25px;
-      background: #f8fafc;
-      transition: all 0.2s ease;
-    }
-    .country-card:hover {
-      transform: translateY(-5px);
-      border-color: #22c55e;
-    }
-    .country-card h3 {
-      margin: 15px 0 10px;
-      font-size: 1.3rem;
-    }
-    .country-card p {
-      font-size: 0.95rem;
-      color: #475569;
-    }
-    .active {
-      background: #ffffff;
-    }
-    .coming {
-      opacity: 0.6;
-    }
-    .cta-btn {
-      display: inline-block;
-      margin-top: 20px;
-      padding: 12px 22px;
-      background: #22c55e;
-      color: #052e16;
-      font-weight: 600;
-      text-decoration: none;
-      border-radius: 6px;
-    }
-    .secondary {
-      background: #e5e7eb;
-      color: #334155;
-      cursor: not-allowed;
-    }
-    section {
-      border-top: 1px solid #e5e7eb;
-    }
-    footer {
-      padding: 40px 20px;
-      text-align: center;
-      background: #f8fafc;
-      color: #475569;
-      border-top: 1px solid #e5e7eb;
-    }
-      
-      .seo-section {
-        background: #ffffff;
-        border-top: 1px solid #e5e7eb;
-      }
-
-      .seo-section h2 {
-        margin-bottom: 18px;
-        color: #0f172a;
-      }
-
-      .seo-section h3 {
-        margin-top: 30px;
-        margin-bottom: 12px;
-        color: #1e293b;
-      }
-
-      .seo-section p {
-        max-width: 900px;
-        margin: 0 auto 16px;
-        color: #334155;
-        font-size: 1.05rem;
-      }
-
-      .seo-list {
-        max-width: 850px;
-        margin: 20px auto 30px;
-        padding-left: 20px;
-        text-align: left;
-      }
-
-      .seo-list li {
-        margin-bottom: 10px;
-        color: #334155;
-      }
-
-  </style>
+      <!-- Styles -->
+      <link rel="stylesheet" href="assets/homestyles.css">
 </head>
 
 <body>
 
-<!-- HERO -->
-<header class="container">
-  <img src="atossc-nepal-logo.png" alt="Atossc Nepal Logo" />
-  <h1>Choose Your Study Destination</h1>
-  <p>
-    Start with the country you are interested in.
-    Our assessment system will review your full profile and guide you
-    to the most suitable option — even if it’s a different country.
-  </p>
-</header>
+<nav class="top-nav">
+  <div class="nav-container">
+    <a href="/" class="nav-logo">
+      <img src="assets/atossc-nepal-logo.png" alt="Atossc Nepal">
+    </a>
+
+    <button class="menu-toggle" aria-label="Toggle menu">
+      ☰
+    </button>
+
+    <ul class="nav-links">
+      <li><a href="about-atosscnepal.html">About Us</a></li>
+      <li><a href="australia.html" >Australia</a></li>
+      <li><a href="new-zealand.html">New Zealand</a></li>
+      <li><a href="study-uk.html">UK</a></li>
+      <li><a href="study-usa.html">USA</a></li>
+      <li><a href="contact.html" class="nav-cta">Contact Us</a></li>
+    </ul>
+  </div>
+</nav>
+<!-- ===== HERO SECTION ===== -->
+<section class="hero">
+  <div class="hero-container">
+    <h1>Study Abroad with Confidence</h1>
+    <p>
+      Trusted guidance for Nepalese students planning to study in
+      Australia, New Zealand, UK and USA.
+    </p>
+    <a href="assessment.html" class="cta-btn">
+      Free Eligibility Assessment
+    </a>
+  </div>
+</section>
 
 <!-- COUNTRY SELECTION -->
 <section>
@@ -285,13 +189,27 @@
     </p>
   </div>
 </section>
+<footer class="site-footer">
+  <div class="footer-container">
+    <p>
+      © Atossc Nepal Pvt. Ltd. | Trusted Study Abroad Guidance Since 2014
+    </p>
 
-<!-- FOOTER -->
-<footer>
-  <p>© 2025 Atossc Nepal Pvt. Ltd.</p>
-  <p>Multi-country | Assessment-first | Honest guidance</p>
-  <p><a href="australia.html">Australia</a> | New Zealand | UK | USA</p>
+    <p>
+      Embassy Marg, Baluwatar, Kathmandu, Nepal
+    </p>
+
+    <p class="footer-links">
+      <a href="about-atosscnepal.html">About</a> ·
+      <a href="australia.html">Australia</a> ·
+      <a href="new-zealand.html">New Zealand</a> ·
+      <a href="study-uk.html">UK</a> ·
+      <a href="study-usa.html">USA</a> ·
+      <a href="contact.html">Contact</a>
+    </p>
+  </div>
 </footer>
-
+<!-- Import the menu JavaScript file -->
+    <script src="assets/menu.js"></script>
 </body>
 </html>
