@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXFileReference section */
+		8206F6282F029BD300B40197 /* new-zealand.html */ = {isa = PBXFileReference; lastKnownFileType = text.html; path = "new-zealand.html"; sourceTree = "<group>"; };
 		8223D2A72EFE9A6D0017A19B /* australia.html */ = {isa = PBXFileReference; lastKnownFileType = text.html; path = australia.html; sourceTree = "<group>"; };
 		8223D2A92EFEA02A0017A19B /* index.html */ = {isa = PBXFileReference; lastKnownFileType = text.html; path = index.html; sourceTree = "<group>"; };
 /* End PBXFileReference section */
@@ -16,6 +17,7 @@
 			isa = PBXGroup;
 			children = (
 				8223D2A72EFE9A6D0017A19B /* australia.html */,
+				8206F6282F029BD300B40197 /* new-zealand.html */,
 				8223D2A92EFEA02A0017A19B /* index.html */,
 			);
 			sourceTree = "<group>";
